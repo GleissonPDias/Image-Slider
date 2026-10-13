@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div>
+      <header>
+        <strong>WILD / STORIES</strong>
+        <nav aria-label="Navegação principal">
+          <span>EXPLORAR</span> · <span>SOBRE</span>
+        </nav>
+      </header>
 
-export default App
+      <main>
+        <section aria-label="Apresentação">
+          <small>EXPLORAÇÃO • VIDA SELVAGEM</small>
+          <h1>A natureza em cada detalhe.</h1>
+          <p>
+            Descubra espécies extraordinárias em uma
+            experiência visual interativa.
+          </p>
+        </section>
+
+        <section aria-label="Galeria da vida selvagem">
+          <p>EM DESTAQUE / PANDA-GIGANTE</p>
+          <img
+            src="/images/image-3.jpg"
+            alt="Pandas descansando em seu habitat"
+            width="460"
+          />
+          <h2>Panda-gigante</h2>
+          <p>Uma das espécies mais carismáticas da China.</p>
+          <button type="button">← Anterior</button>
+          <button type="button">Próximo →</button>
+          <p>03 / 05</p>
+        </section>
+      </main>
+
+      <footer>REACT • TAILWIND CSS • JAVASCRIPT</footer>
+    </div>
+  );
+}
