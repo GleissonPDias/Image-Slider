@@ -1,0 +1,71 @@
+{
+  "language": {
+    "label": "Idioma",
+    "switcher": "Seleccionar idioma"
+  },
+  "header": {
+    "avatarAlt": "Foto de perfil del autor"
+  },
+  "nav": {
+    "ariaLabel": "Navegación principal",
+    "explore": "EXPLORAR",
+    "about": "ACERCA"
+  },
+  "hero": {
+    "ariaLabel": "Presentación",
+    "eyebrow": "EXPLORACIÓN • VIDA SALVAJE",
+    "title": "La naturaleza en cada detalle.",
+    "subtitle": "Descubre especies extraordinarias en una experiencia visual interactiva."
+  },
+  "slider": {
+    "ariaLabel": "Galería de vida salvaje",
+    "featured": "DESTACADO / {{badge}}",
+    "controls": {
+      "groupLabel": "Controles del carrusel",
+      "previous": "Imagen anterior",
+      "next": "Imagen siguiente",
+      "selectGroup": "Seleccionar diapositiva",
+      "goTo": "Ir a la imagen {{number}}"
+    }
+  },
+  "footer": {
+    "stack": "REACT • TAILWIND CSS • JAVASCRIPT"
+  },
+  "slides": {
+    "cachorros": {
+      "animal": "Cachorritos",
+      "badge": "PERROS",
+      "alt": "Cachorritos en un campo florido",
+      "summary": "Pequeños compañeros, grandes personalidades.",
+      "description": "Las razas pequeñas son conocidas por su curiosidad, energía y apego a sus dueños."
+    },
+    "urso": {
+      "animal": "Oso",
+      "badge": "OSOS",
+      "alt": "Cachorro de oso junto a un oso adulto",
+      "summary": "Fuerza, cuidado y vida salvaje.",
+      "description": "Los osos viven en diversos hábitats y presentan dietas y comportamientos variados."
+    },
+    "panda": {
+      "animal": "Panda gigante",
+      "badge": "PANDA GIGANTE",
+      "alt": "Pandas descansando en su hábitat",
+      "summary": "Tranquilo, curioso e inconfundible.",
+      "description": "El panda gigante vive en China, se alimenta principalmente de bambú y es un excelente escalador."
+    },
+    "leao": {
+      "animal": "León",
+      "badge": "LEONES",
+      "alt": "Leona descansando en una rama",
+      "summary": "Un gran felino social.",
+      "description": "Los leones viven en grupos sociales y son depredadores hábiles."
+    },
+    "girafa": {
+      "animal": "Jirafa",
+      "badge": "JIRAFAS",
+      "alt": "Dos jirafas en la sabana",
+      "summary": "La mayor altura entre los animales terrestres.",
+      "description": "Su largo cuello le permite alcanzar las hojas en lo alto de los árboles africanos."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "language": {
+    "label": "Language",
+    "switcher": "Select language"
+  },
+  "header": {
+    "avatarAlt": "Author profile picture"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "explore": "EXPLORE",
+    "about": "ABOUT"
+  },
+  "hero": {
+    "ariaLabel": "Introduction",
+    "eyebrow": "EXPLORATION • WILDLIFE",
+    "title": "Nature in every detail.",
+    "subtitle": "Discover extraordinary species in an interactive visual experience."
+  },
+  "slider": {
+    "ariaLabel": "Wildlife gallery",
+    "featured": "FEATURED / {{badge}}",
+    "controls": {
+      "groupLabel": "Slider controls",
+      "previous": "Previous image",
+      "next": "Next image",
+      "selectGroup": "Select slide",
+      "goTo": "Go to image {{number}}"
+    }
+  },
+  "footer": {
+    "stack": "REACT • TAILWIND CSS • JAVASCRIPT"
+  },
+  "slides": {
+    "cachorros": {
+      "animal": "Puppies",
+      "badge": "DOGS",
+      "alt": "Puppy dogs in a flowery field",
+      "summary": "Small companions, big personalities.",
+      "description": "Small breeds are known for their curiosity, energy and attachment to their owners."
+    },
+    "urso": {
+      "animal": "Bear",
+      "badge": "BEARS",
+      "alt": "Bear cub next to an adult bear",
+      "summary": "Strength, care and wildlife.",
+      "description": "Bears live in a wide range of habitats and show varied diets and behaviors."
+    },
+    "panda": {
+      "animal": "Giant panda",
+      "badge": "GIANT PANDA",
+      "alt": "Pandas resting in their habitat",
+      "summary": "Calm, curious and unmistakable.",
+      "description": "The giant panda lives in China, feeds mainly on bamboo and is an excellent climber."
+    },
+    "leao": {
+      "animal": "Lion",
+      "badge": "LIONS",
+      "alt": "Lioness resting on a branch",
+      "summary": "A highly social big cat.",
+      "description": "Lions live in social groups and are skilled predators."
+    },
+    "girafa": {
+      "animal": "Giraffe",
+      "badge": "GIRAFFES",
+      "alt": "Two giraffes on the savanna",
+      "summary": "The tallest of all land animals.",
+      "description": "Its long neck lets it reach leaves at the top of African trees."
+    }
+  }
+}
