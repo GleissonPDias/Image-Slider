@@ -3,6 +3,9 @@
     "label": "Language",
     "switcher": "Select language"
   },
+  "theme": {
+    "toggle": "Toggle light and dark mode"
+  },
   "header": {
     "avatarAlt": "Author profile picture"
   },

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Background from './components/Background.jsx';
 import ImageSlider from './components/ImageSlider.jsx';
 import LanguageSwitcher from './components/LanguageSwitcher.jsx';
+import ThemeSwitcher from './components/ThemeSwitcher.jsx';
 
 export default function App() {
   const { t } = useTranslation();
@@ -11,30 +12,31 @@ export default function App() {
     <div className="relative isolate min-h-screen overflow-hidden text-ink">
       <Background />
       <div className="mx-auto max-w-7xl px-6 sm:px-10">
-        <header className="flex items-center justify-between border-b border-violet-100 py-8">
+        <header className="flex items-center justify-between border-b border-violet-100 py-8 dark:border-violet-800/70">
           <img className='w-20 rounded-full shadow-xl drop-shadow-2xl border border-mauve/10 overflow-hidden hover:translate-y-50 hover:translate-x-50' src='images/avatar.jpg' alt={t('header.avatarAlt')}/>
-          <div className="flex items-center gap-6">
-            <nav aria-label={t('nav.ariaLabel')} className="text-xs font-semibold tracking-widest text-slate-500">
+          <div className="flex items-center gap-4">
+            <nav aria-label={t('nav.ariaLabel')} className="text-xs font-semibold tracking-widest text-slate-500 dark:text-violet-300">
               {t('nav.explore')} · {t('nav.about')}
             </nav>
             <LanguageSwitcher />
+            <ThemeSwitcher />
           </div>
         </header>
         <main className="grid gap-16 py-20 lg:grid-cols-2 lg:items-center lg:gap-20">
           <section aria-label={t('hero.ariaLabel')} className="space-y-7">
-            <p className="text-xs font-bold tracking-[.2em] text-violet-600">
+            <p className="text-xs font-bold tracking-[.2em] text-violet-600 dark:text-violet-400">
               {t('hero.eyebrow')}
             </p>
             <h1 className="max-w-xl text-5xl font-bold leading-tight tracking-tight sm:text-6xl">
               {t('hero.title')}
             </h1>
-            <p className="max-w-lg text-lg leading-relaxed text-slate-500">
+            <p className="max-w-lg text-lg leading-relaxed text-slate-500 dark:text-violet-200/80">
               {t('hero.subtitle')}
             </p>
           </section>
           <ImageSlider />
         </main>
-        <footer className="py-10 text-xs font-semibold tracking-widest text-slate-400">
+        <footer className="py-10 text-xs font-semibold tracking-widest text-slate-400 dark:text-violet-400/70">
           {t('footer.stack')}
         </footer>
       </div>

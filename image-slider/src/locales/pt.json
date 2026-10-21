@@ -3,6 +3,9 @@
     "label": "Idioma",
     "switcher": "Selecionar idioma"
   },
+  "theme": {
+    "toggle": "Alternar entre modo claro e escuro"
+  },
   "header": {
     "avatarAlt": "Foto de perfil do autor"
   },
